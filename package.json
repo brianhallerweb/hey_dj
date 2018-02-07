@@ -34,11 +34,16 @@
     "typeface-shrikhand": "0.0.44"
   },
   "ava": {
-    "require": ["babel-register"],
+    "require": [
+      "babel-register"
+    ],
     "babel": "inherit"
   },
   "babel": {
-    "presets": ["@ava/stage-4", "react"]
+    "presets": [
+      "@ava/stage-4",
+      "react"
+    ]
   },
   "proxy": "http://localhost:3099",
   "scripts": {
